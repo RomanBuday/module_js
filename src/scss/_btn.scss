@@ -1,0 +1,16 @@
+.btn {
+  width: 225px;
+  padding: 25px 41px;
+  font-weight: 400;
+  background: var(--btn-color);
+  text-transform: uppercase;
+  display: block;
+  background: var(--accent-color);
+  color: var(--light-color);
+  text-align: center;
+  transition: .7s;
+  &:hover {
+    color: var(--second-bkg-color);
+    filter: drop-shadow(2px 4px 6px var(--accent-color));
+  }
+}
